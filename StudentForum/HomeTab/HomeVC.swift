@@ -19,7 +19,7 @@ struct HomeVC: View {
                 }
             }
             Button{
-                print("New subforum testing")
+                print("New subforum")
                 isClicked.toggle()
                 
             } label: {
@@ -28,7 +28,7 @@ struct HomeVC: View {
                     .frame(width: 50, height: 80)
                     .padding()
             }
-            .background(Color(.systemRed))
+            .background(Color(.systemBlue))
             .clipShape(Circle())
             .foregroundColor(.white)
             .padding(.trailing)
