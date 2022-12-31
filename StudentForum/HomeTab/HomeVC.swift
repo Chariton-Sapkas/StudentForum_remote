@@ -19,7 +19,7 @@ struct HomeVC: View {
                 }
             }
             Button{
-                print("New subforum")
+                print("New subforum testing")
                 isClicked.toggle()
                 
             } label: {
