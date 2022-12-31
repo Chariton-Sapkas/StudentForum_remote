@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28040DD627D58D58002621D8 /* groupTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28040DD527D58D58002621D8 /* groupTemplate.swift */; };
+		28040DDC27D5998F002621D8 /* GroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28040DDB27D5998F002621D8 /* GroupVC.swift */; };
+		28040DDE27D599C4002621D8 /* GroupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28040DDD27D599C4002621D8 /* GroupVM.swift */; };
+		28252CBE27AC8D150039E5EA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 28252CBD27AC8D150039E5EA /* FirebaseAuth */; };
+		28252CC027AC91330039E5EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28252CBF27AC91330039E5EA /* GoogleService-Info.plist */; };
+		28577E5227D4210600CFB998 /* profileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28577E5127D4210600CFB998 /* profileVM.swift */; };
+		2872AF712796C31400E478B6 /* StudentForumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AF702796C31400E478B6 /* StudentForumApp.swift */; };
+		2872AF732796C31400E478B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AF722796C31400E478B6 /* ContentView.swift */; };
+		2872AF752796C31500E478B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2872AF742796C31500E478B6 /* Assets.xcassets */; };
+		2872AF782796C31500E478B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2872AF772796C31500E478B6 /* Preview Assets.xcassets */; };
+		2872AF822796C31600E478B6 /* StudentForumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AF812796C31600E478B6 /* StudentForumTests.swift */; };
+		2872AF8C2796C31600E478B6 /* StudentForumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AF8B2796C31600E478B6 /* StudentForumUITests.swift */; };
+		2872AF8E2796C31600E478B6 /* StudentForumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AF8D2796C31600E478B6 /* StudentForumUITestsLaunchTests.swift */; };
+		28882A9D27D03ECB00D117C3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28882A9C27D03ECB00D117C3 /* HomeVC.swift */; };
+		28882AA127D04D6700D117C3 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28882AA027D04D6700D117C3 /* Tab.swift */; };
+		28882AA727D17E8A00D117C3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28882AA627D17E8A00D117C3 /* ProfileVC.swift */; };
+		28882AA927D17F6600D117C3 /* GiftsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28882AA827D17F6600D117C3 /* GiftsVC.swift */; };
+		28882AAC27D17F9300D117C3 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28882AAB27D17F9300D117C3 /* SearchVC.swift */; };
+		289C372427D65048008E87E0 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289C372327D65048008E87E0 /* SettingsVC.swift */; };
+		289C372727D69969008E87E0 /* postVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289C372627D69969008E87E0 /* postVC.swift */; };
+		289C372927D6A973008E87E0 /* textSubforum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289C372827D6A973008E87E0 /* textSubforum.swift */; };
+		28AB005C27B33F000016B5E4 /* textFieldTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB005B27B33F000016B5E4 /* textFieldTemplate.swift */; };
+		28AB005E27B55C4D0016B5E4 /* ButtonTemplate1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB005D27B55C4D0016B5E4 /* ButtonTemplate1.swift */; };
+		28AB006027B55C660016B5E4 /* ButtonTemplate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB005F27B55C650016B5E4 /* ButtonTemplate2.swift */; };
+		28AB006327B9D6410016B5E4 /* SubForumTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB006227B9D6400016B5E4 /* SubForumTemplate.swift */; };
+		28DA54E327B023B900411C55 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA54E227B023B900411C55 /* LoginVC.swift */; };
+		28DA54E527B023CB00411C55 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA54E427B023CB00411C55 /* SignUpVC.swift */; };
+		28DA54E927B2982400411C55 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA54E827B2982400411C55 /* LoginVM.swift */; };
+		28DA54EB27B2D50800411C55 /* SingUpMV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA54EA27B2D50800411C55 /* SingUpMV.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2872AF7E2796C31600E478B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2872AF652796C31400E478B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2872AF6C2796C31400E478B6;
+			remoteInfo = StudentForum;
+		};
+		2872AF882796C31600E478B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2872AF652796C31400E478B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2872AF6C2796C31400E478B6;
+			remoteInfo = StudentForum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28040DD527D58D58002621D8 /* groupTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupTemplate.swift; sourceTree = "<group>"; };
+		28040DDB27D5998F002621D8 /* GroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupVC.swift; sourceTree = "<group>"; };
+		28040DDD27D599C4002621D8 /* GroupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupVM.swift; sourceTree = "<group>"; };
+		28252CBF27AC91330039E5EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28577E5127D4210600CFB998 /* profileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVM.swift; sourceTree = "<group>"; };
+		2872AF6D2796C31400E478B6 /* StudentForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2872AF702796C31400E478B6 /* StudentForumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentForumApp.swift; sourceTree = "<group>"; };
+		2872AF722796C31400E478B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		2872AF742796C31500E478B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2872AF772796C31500E478B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2872AF7D2796C31600E478B6 /* StudentForumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentForumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2872AF812796C31600E478B6 /* StudentForumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentForumTests.swift; sourceTree = "<group>"; };
+		2872AF872796C31600E478B6 /* StudentForumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentForumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2872AF8B2796C31600E478B6 /* StudentForumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentForumUITests.swift; sourceTree = "<group>"; };
+		2872AF8D2796C31600E478B6 /* StudentForumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentForumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28882A9C27D03ECB00D117C3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		28882AA027D04D6700D117C3 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		28882AA627D17E8A00D117C3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		28882AA827D17F6600D117C3 /* GiftsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsVC.swift; sourceTree = "<group>"; };
+		28882AAB27D17F9300D117C3 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		289C372327D65048008E87E0 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		289C372627D69969008E87E0 /* postVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postVC.swift; sourceTree = "<group>"; };
+		289C372827D6A973008E87E0 /* textSubforum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textSubforum.swift; sourceTree = "<group>"; };
+		28AB005B27B33F000016B5E4 /* textFieldTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldTemplate.swift; sourceTree = "<group>"; };
+		28AB005D27B55C4D0016B5E4 /* ButtonTemplate1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTemplate1.swift; sourceTree = "<group>"; };
+		28AB005F27B55C650016B5E4 /* ButtonTemplate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTemplate2.swift; sourceTree = "<group>"; };
+		28AB006227B9D6400016B5E4 /* SubForumTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubForumTemplate.swift; sourceTree = "<group>"; };
+		28DA54E227B023B900411C55 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		28DA54E427B023CB00411C55 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		28DA54E827B2982400411C55 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		28DA54EA27B2D50800411C55 /* SingUpMV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpMV.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2872AF6A2796C31400E478B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28252CBE27AC8D150039E5EA /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2872AF7A2796C31600E478B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2872AF842796C31600E478B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28040DD727D59895002621D8 /* Log-in */ = {
+			isa = PBXGroup;
+			children = (
+				28DA54E227B023B900411C55 /* LoginVC.swift */,
+				28DA54E827B2982400411C55 /* LoginVM.swift */,
+			);
+			path = "Log-in";
+			sourceTree = "<group>";
+		};
+		28040DD827D598DC002621D8 /* Sign-up */ = {
+			isa = PBXGroup;
+			children = (
+				28DA54E427B023CB00411C55 /* SignUpVC.swift */,
+				28DA54EA27B2D50800411C55 /* SingUpMV.swift */,
+			);
+			path = "Sign-up";
+			sourceTree = "<group>";
+		};
+		28040DDA27D5994C002621D8 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				28040DDB27D5998F002621D8 /* GroupVC.swift */,
+				28040DDD27D599C4002621D8 /* GroupVM.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		28040DDF27D64E1D002621D8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				289C372327D65048008E87E0 /* SettingsVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2872AF642796C31400E478B6 = {
+			isa = PBXGroup;
+			children = (
+				28252CBF27AC91330039E5EA /* GoogleService-Info.plist */,
+				2872AF6F2796C31400E478B6 /* StudentForum */,
+				2872AF802796C31600E478B6 /* StudentForumTests */,
+				2872AF8A2796C31600E478B6 /* StudentForumUITests */,
+				2872AF6E2796C31400E478B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2872AF6E2796C31400E478B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2872AF6D2796C31400E478B6 /* StudentForum.app */,
+				2872AF7D2796C31600E478B6 /* StudentForumTests.xctest */,
+				2872AF872796C31600E478B6 /* StudentForumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2872AF6F2796C31400E478B6 /* StudentForum */ = {
+			isa = PBXGroup;
+			children = (
+				2872AF722796C31400E478B6 /* ContentView.swift */,
+				2872AF702796C31400E478B6 /* StudentForumApp.swift */,
+				289C372527D69957008E87E0 /* uploadPost */,
+				28040DDF27D64E1D002621D8 /* Settings */,
+				28040DDA27D5994C002621D8 /* Groups */,
+				28040DD827D598DC002621D8 /* Sign-up */,
+				28040DD727D59895002621D8 /* Log-in */,
+				28882AAA27D17F7C00D117C3 /* SearchTab */,
+				28882AA527D1693700D117C3 /* GiftsTab */,
+				28882AA427D1692100D117C3 /* ProfileTab */,
+				28882AA227D168FA00D117C3 /* HomeTab */,
+				28882A9E27D04D0D00D117C3 /* Tab */,
+				28882A9B27CFF44600D117C3 /* Service */,
+				2872AF762796C31500E478B6 /* Preview Content */,
+				28AB005A27B33B640016B5E4 /* Objects */,
+				2872AF742796C31500E478B6 /* Assets.xcassets */,
+			);
+			path = StudentForum;
+			sourceTree = "<group>";
+		};
+		2872AF762796C31500E478B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2872AF772796C31500E478B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2872AF802796C31600E478B6 /* StudentForumTests */ = {
+			isa = PBXGroup;
+			children = (
+				2872AF812796C31600E478B6 /* StudentForumTests.swift */,
+			);
+			path = StudentForumTests;
+			sourceTree = "<group>";
+		};
+		2872AF8A2796C31600E478B6 /* StudentForumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2872AF8B2796C31600E478B6 /* StudentForumUITests.swift */,
+				2872AF8D2796C31600E478B6 /* StudentForumUITestsLaunchTests.swift */,
+			);
+			path = StudentForumUITests;
+			sourceTree = "<group>";
+		};
+		28882A9B27CFF44600D117C3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		28882A9E27D04D0D00D117C3 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				28882AA027D04D6700D117C3 /* Tab.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		28882AA227D168FA00D117C3 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				28882A9C27D03ECB00D117C3 /* HomeVC.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		28882AA427D1692100D117C3 /* ProfileTab */ = {
+			isa = PBXGroup;
+			children = (
+				28882AA627D17E8A00D117C3 /* ProfileVC.swift */,
+				28577E5127D4210600CFB998 /* profileVM.swift */,
+			);
+			path = ProfileTab;
+			sourceTree = "<group>";
+		};
+		28882AA527D1693700D117C3 /* GiftsTab */ = {
+			isa = PBXGroup;
+			children = (
+				28882AA827D17F6600D117C3 /* GiftsVC.swift */,
+			);
+			path = GiftsTab;
+			sourceTree = "<group>";
+		};
+		28882AAA27D17F7C00D117C3 /* SearchTab */ = {
+			isa = PBXGroup;
+			children = (
+				28882AAB27D17F9300D117C3 /* SearchVC.swift */,
+			);
+			path = SearchTab;
+			sourceTree = "<group>";
+		};
+		289C372527D69957008E87E0 /* uploadPost */ = {
+			isa = PBXGroup;
+			children = (
+				289C372627D69969008E87E0 /* postVC.swift */,
+			);
+			path = uploadPost;
+			sourceTree = "<group>";
+		};
+		28AB005A27B33B640016B5E4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				28AB005B27B33F000016B5E4 /* textFieldTemplate.swift */,
+				28AB005D27B55C4D0016B5E4 /* ButtonTemplate1.swift */,
+				28AB005F27B55C650016B5E4 /* ButtonTemplate2.swift */,
+				28AB006227B9D6400016B5E4 /* SubForumTemplate.swift */,
+				28040DD527D58D58002621D8 /* groupTemplate.swift */,
+				289C372827D6A973008E87E0 /* textSubforum.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2872AF6C2796C31400E478B6 /* StudentForum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2872AF912796C31600E478B6 /* Build configuration list for PBXNativeTarget "StudentForum" */;
+			buildPhases = (
+				2872AF692796C31400E478B6 /* Sources */,
+				2872AF6A2796C31400E478B6 /* Frameworks */,
+				2872AF6B2796C31400E478B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentForum;
+			packageProductDependencies = (
+				28252CBD27AC8D150039E5EA /* FirebaseAuth */,
+			);
+			productName = StudentForum;
+			productReference = 2872AF6D2796C31400E478B6 /* StudentForum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2872AF7C2796C31600E478B6 /* StudentForumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2872AF942796C31600E478B6 /* Build configuration list for PBXNativeTarget "StudentForumTests" */;
+			buildPhases = (
+				2872AF792796C31600E478B6 /* Sources */,
+				2872AF7A2796C31600E478B6 /* Frameworks */,
+				2872AF7B2796C31600E478B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2872AF7F2796C31600E478B6 /* PBXTargetDependency */,
+			);
+			name = StudentForumTests;
+			productName = StudentForumTests;
+			productReference = 2872AF7D2796C31600E478B6 /* StudentForumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2872AF862796C31600E478B6 /* StudentForumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2872AF972796C31600E478B6 /* Build configuration list for PBXNativeTarget "StudentForumUITests" */;
+			buildPhases = (
+				2872AF832796C31600E478B6 /* Sources */,
+				2872AF842796C31600E478B6 /* Frameworks */,
+				2872AF852796C31600E478B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2872AF892796C31600E478B6 /* PBXTargetDependency */,
+			);
+			name = StudentForumUITests;
+			productName = StudentForumUITests;
+			productReference = 2872AF872796C31600E478B6 /* StudentForumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2872AF652796C31400E478B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2872AF6C2796C31400E478B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2872AF7C2796C31600E478B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2872AF6C2796C31400E478B6;
+					};
+					2872AF862796C31600E478B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2872AF6C2796C31400E478B6;
+					};
+				};
+			};
+			buildConfigurationList = 2872AF682796C31400E478B6 /* Build configuration list for PBXProject "StudentForum" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2872AF642796C31400E478B6;
+			packageReferences = (
+				28252CBC27AC8D150039E5EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 2872AF6E2796C31400E478B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2872AF6C2796C31400E478B6 /* StudentForum */,
+				2872AF7C2796C31600E478B6 /* StudentForumTests */,
+				2872AF862796C31600E478B6 /* StudentForumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2872AF6B2796C31400E478B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2872AF782796C31500E478B6 /* Preview Assets.xcassets in Resources */,
+				2872AF752796C31500E478B6 /* Assets.xcassets in Resources */,
+				28252CC027AC91330039E5EA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2872AF7B2796C31600E478B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2872AF852796C31600E478B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2872AF692796C31400E478B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DA54E527B023CB00411C55 /* SignUpVC.swift in Sources */,
+				28AB005E27B55C4D0016B5E4 /* ButtonTemplate1.swift in Sources */,
+				28882AA927D17F6600D117C3 /* GiftsVC.swift in Sources */,
+				2872AF732796C31400E478B6 /* ContentView.swift in Sources */,
+				2872AF712796C31400E478B6 /* StudentForumApp.swift in Sources */,
+				28AB006327B9D6410016B5E4 /* SubForumTemplate.swift in Sources */,
+				28882AAC27D17F9300D117C3 /* SearchVC.swift in Sources */,
+				28DA54E327B023B900411C55 /* LoginVC.swift in Sources */,
+				28AB005C27B33F000016B5E4 /* textFieldTemplate.swift in Sources */,
+				289C372427D65048008E87E0 /* SettingsVC.swift in Sources */,
+				28AB006027B55C660016B5E4 /* ButtonTemplate2.swift in Sources */,
+				28882AA727D17E8A00D117C3 /* ProfileVC.swift in Sources */,
+				28040DD627D58D58002621D8 /* groupTemplate.swift in Sources */,
+				28040DDC27D5998F002621D8 /* GroupVC.swift in Sources */,
+				28DA54EB27B2D50800411C55 /* SingUpMV.swift in Sources */,
+				28882A9D27D03ECB00D117C3 /* HomeVC.swift in Sources */,
+				289C372927D6A973008E87E0 /* textSubforum.swift in Sources */,
+				28882AA127D04D6700D117C3 /* Tab.swift in Sources */,
+				28040DDE27D599C4002621D8 /* GroupVM.swift in Sources */,
+				28577E5227D4210600CFB998 /* profileVM.swift in Sources */,
+				289C372727D69969008E87E0 /* postVC.swift in Sources */,
+				28DA54E927B2982400411C55 /* LoginVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2872AF792796C31600E478B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2872AF822796C31600E478B6 /* StudentForumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2872AF832796C31600E478B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2872AF8E2796C31600E478B6 /* StudentForumUITestsLaunchTests.swift in Sources */,
+				2872AF8C2796C31600E478B6 /* StudentForumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2872AF7F2796C31600E478B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2872AF6C2796C31400E478B6 /* StudentForum */;
+			targetProxy = 2872AF7E2796C31600E478B6 /* PBXContainerItemProxy */;
+		};
+		2872AF892796C31600E478B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2872AF6C2796C31400E478B6 /* StudentForum */;
+			targetProxy = 2872AF882796C31600E478B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2872AF8F2796C31600E478B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				"DEVELOPMENT_TEAM[sdk=*]" = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2872AF902796C31600E478B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				"DEVELOPMENT_TEAM[sdk=*]" = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2872AF922796C31600E478B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentForum/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chariton.StudentForum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2872AF932796C31600E478B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentForum/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chariton.StudentForum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2872AF952796C31600E478B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chariton.StudentForumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentForum.app/StudentForum";
+			};
+			name = Debug;
+		};
+		2872AF962796C31600E478B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chariton.StudentForumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentForum.app/StudentForum";
+			};
+			name = Release;
+		};
+		2872AF982796C31600E478B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chariton.StudentForumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentForum;
+			};
+			name = Debug;
+		};
+		2872AF992796C31600E478B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chariton.StudentForumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentForum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2872AF682796C31400E478B6 /* Build configuration list for PBXProject "StudentForum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2872AF8F2796C31600E478B6 /* Debug */,
+				2872AF902796C31600E478B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2872AF912796C31600E478B6 /* Build configuration list for PBXNativeTarget "StudentForum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2872AF922796C31600E478B6 /* Debug */,
+				2872AF932796C31600E478B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2872AF942796C31600E478B6 /* Build configuration list for PBXNativeTarget "StudentForumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2872AF952796C31600E478B6 /* Debug */,
+				2872AF962796C31600E478B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2872AF972796C31600E478B6 /* Build configuration list for PBXNativeTarget "StudentForumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2872AF982796C31600E478B6 /* Debug */,
+				2872AF992796C31600E478B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28252CBC27AC8D150039E5EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28252CBD27AC8D150039E5EA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28252CBC27AC8D150039E5EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2872AF652796C31400E478B6 /* Project object */;
+}
